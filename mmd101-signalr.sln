@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "services", "services", "{0179B5A3-6C87-4D99-B6F0-0CB903A8BC02}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "signalr01.host", "services\signalr01.host\signalr01.host.csproj", "{C1778222-74F1-4632-B63D-0673DA843389}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1778222-74F1-4632-B63D-0673DA843389}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1778222-74F1-4632-B63D-0673DA843389}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1778222-74F1-4632-B63D-0673DA843389}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1778222-74F1-4632-B63D-0673DA843389}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C1778222-74F1-4632-B63D-0673DA843389} = {0179B5A3-6C87-4D99-B6F0-0CB903A8BC02}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {79187397-D613-4C73-BF6E-5368A07C19CB}
+	EndGlobalSection
+EndGlobal
